@@ -1,6 +1,6 @@
 cask "macos-unijoy" do
-  version "1.0.4"
-  sha256 "ef6edc3f872bf7903e25debaa1210aa36de572db50007d9f8d37e49d80cbd741"
+  version "1.1.0"
+  sha256 "920ab0f27c53fde78bf07ba2304b8b908251a3eae579a01a6f74126c6b787977"
 
   url "https://github.com/milon/macos-unijoy/archive/refs/tags/v#{version}.tar.gz",
       verified: "github.com/milon/macos-unijoy/"
