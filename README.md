@@ -5,16 +5,16 @@ A [Homebrew](https://brew.sh/) tap for the
 
 ## Install
 
-\`\`\`bash
+```bash
 brew install --cask milon/macos-unijoy/macos-unijoy
-\`\`\`
+```
 
 Or in two steps:
 
-\`\`\`bash
+```bash
 brew tap milon/macos-unijoy
 brew install --cask macos-unijoy
-\`\`\`
+```
 
 After installing, log out and back in (or restart), then enable the layout:
 
@@ -23,9 +23,9 @@ After installing, log out and back in (or restart), then enable the layout:
 
 ## Uninstall
 
-\`\`\`bash
+```bash
 brew uninstall --cask macos-unijoy
-\`\`\`
+```
 
 ## About this tap
 
