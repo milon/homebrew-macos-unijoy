@@ -13,7 +13,7 @@ cask "macos-unijoy" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   keyboard_layout "macos-unijoy-#{version}/unijoy.keylayout"
   keyboard_layout "macos-unijoy-#{version}/unijoy.icns"
