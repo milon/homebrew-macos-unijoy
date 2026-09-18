@@ -2,8 +2,7 @@ cask "macos-unijoy" do
   version "1.1.0"
   sha256 "920ab0f27c53fde78bf07ba2304b8b908251a3eae579a01a6f74126c6b787977"
 
-  url "https://github.com/milon/macos-unijoy/archive/refs/tags/v#{version}.tar.gz",
-      verified: "github.com/milon/macos-unijoy/"
+  url "https://github.com/milon/macos-unijoy/archive/refs/tags/v#{version}.tar.gz"
   name "Unijoy"
   desc "Bengali Unijoy keyboard layout for macOS"
   homepage "https://github.com/milon/macos-unijoy"
