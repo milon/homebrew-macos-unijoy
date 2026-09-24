@@ -4,7 +4,7 @@ cask "macos-unijoy" do
 
   url "https://github.com/milon/macos-unijoy/archive/refs/tags/v#{version}.tar.gz"
   name "Unijoy"
-  desc "Bengali Unijoy keyboard layout for macOS"
+  desc "Bengali Unijoy keyboard layout"
   homepage "https://github.com/milon/macos-unijoy"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "macos-unijoy" do
     strategy :github_latest
   end
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   keyboard_layout "macos-unijoy-#{version}/unijoy.keylayout"
   keyboard_layout "macos-unijoy-#{version}/unijoy.icns"
